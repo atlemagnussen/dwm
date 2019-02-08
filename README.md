@@ -1,5 +1,6 @@
-dwm - dynamic window manager
-============================
+# dwm - dynamic window manager
+Forked by [@atlemagnussen](https://github.com/atlemagnussen)
+
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
