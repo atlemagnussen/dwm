@@ -1,6 +1,8 @@
 # dwm - dynamic window manager
 Forked by [@atlemagnussen](https://github.com/atlemagnussen)
 
+https://github.com/yeriomin/dwm/blob/master/config.def.h
+
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
