@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+#include <X11/XF86keysym.h>
 
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
@@ -61,6 +62,10 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *brightdown[] = { "xbacklight", "-", "10", NULL };
 static const char *brightup[]   = { "xbacklight", "+", "10", NULL };
+static const char *volumedown[] = { "pactl", "set-sink-volume", "0", "-5%", NULL };
+static const char *volumeup[]   = { "pactl", "set-sink-volume", "0", "+5%", NULL };
+static const char *mute[]       = { "pactl", "set-sink-mute",   "0", "toggle", NULL };
+//pactl set-sink-volume 0 +5%
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -97,8 +102,11 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
-	{ MODKEY,                       XK_F1,     spawn,          { .v = brightdown } },
-  { MODKEY,                       XK_F2,     spawn,          { .v = brightup } },
+	{ 0,                            XF86XK_MonBrightnessDown,  spawn,          { .v = brightdown } },
+  { 0,                            XF86XK_MonBrightnessUp,    spawn,          { .v = brightup } },
+	{ 0,                            XF86XK_AudioLowerVolume,   spawn,          { .v = volumedown } },
+  { 0,                            XF86XK_AudioRaiseVolume,   spawn,          { .v = volumeup } },
+  { 0,                            XF86XK_AudioMute,          spawn,          { .v = mute } },
 };
 
 /* button definitions */
