@@ -8,10 +8,10 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 ## Hotkeys
 | Key             | Action                           |
 | --------------- | -------------------------------- |
-| mod+j           | Shift focus le                   |
+| mod+j           | Shift focus left                 |
 | mod+k           | Shift focus right                |
-| mod+h           | resize to the left               |
-| mod+l           | resize to the right              |
+| mod+h           | Resize to the left               |
+| mod+l           | Resize to the right              |
 | mod+t           | Tiled mode (default)             |
 | mod+f           | Floating mode                    |
 | mod+m           | Monocle mode                     |
