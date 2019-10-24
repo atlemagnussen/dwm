@@ -5,6 +5,23 @@ https://github.com/yeriomin/dwm/blob/master/config.def.h
 
 dwm is an extremely fast, small, and dynamic window manager for X.
 
+## Hotkeys
+| Key             | Action                           |
+| --------------- | -------------------------------- |
+| mod+j           | Shift focus le                   |
+| mod+k           | Shift focus right                |
+| mod+h           | resize to the left               |
+| mod+l           | resize to the right              |
+| mod+t           | Tiled mode (default)             |
+| mod+f           | Floating mode                    |
+| mod+m           | Monocle mode                     |
+| shift+mod+q     | Quit window/application          |
+| mod+[1-9]       | Toggle tag visibility            |
+| shift+mod+[1-9] | Move window to tag               |
+| mod+d           | Move window down stack           |
+| mod+i           | Move window up stack             |
+| shit+mod+space  | Toggle floating on active window | 
+
 
 Requirements
 ------------
