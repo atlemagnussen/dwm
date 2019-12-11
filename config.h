@@ -17,13 +17,15 @@ static const char col_magenta[]     = "#b51cb5";
 static const char col_magenta_dark[]= "#b800b8";
 static const char col_cyan[]        = "#00ffff";
 static const char col_cyan_dark[]   = "#008b8b";
+static const char col_cyan_darker[] = "#006666";
+static const char col_cyan_darkest[]= "#004c4c";
 static const char col_purple_dark[] = "#2c002c";
 static const char col_blue[]        = "#0000ff";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_white, col_gray2, col_gray3 },
-	[SchemeSel]  = { col_white, col_cyan_dark, col_purple_dark },
+	[SchemeNorm] = { col_white, col_cyan_darkest, col_gray1 },
+	[SchemeSel]  = { col_white, col_cyan_dark, col_cyan_darker },
 };
 
 /* tagging */
