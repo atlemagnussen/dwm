@@ -6,24 +6,24 @@ https://github.com/yeriomin/dwm/blob/master/config.def.h
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 ## Hotkeys
-| Key             | Action                             |
-| --------------- | ---------------------------------- |
-| mod+j           | Shift focus left                   |
-| mod+k           | Shift focus right                  |
-| mod+h           | Resize to the left                 |
-| mod+l           | Resize to the right                |
-| mod+t           | Tiled mode (default)               |
-| mod+f           | Floating mode                      |
-| mod+m           | Monocle mode                       |
-| shift+mod+q     | Quit window/application            |
-| mod+[1-9]       | Toggle tag visibility              |
-| shift+mod+[1-9] | Move window to tag                 |
-| mod+d           | Move window down stack             |
-| mod+i           | Move window up stack               |
-| shit+mod+space  | Toggle floating on active window   | 
-| mod+b           | Toggle bar                         |
-| mod+return      | Zoom active window to master stack |
-| mod+tab         | Toggle view                        |
+| desc                               | hotkey          |
+| ---------------------------------- | --------------- |
+| Shift focus left                   | mod+j           |
+| Shift focus right                  | mod+k           |
+| Resize to the left                 | mod+h           |
+| Resize to the right                | mod+l           |
+| Tiled mode (default)               | mod+t           |
+| Floating mode                      | mod+f           |
+| Monocle mode                       | mod+m           |
+| Quit window/application            | shift+mod+q     |
+| Toggle tag visibility              | mod+[1-9]       |
+| Move window to tag                 | shift+mod+[1-9] |
+| Move window down stack             | mod+d           |
+| Move window up stack               | mod+i           |
+| Toggle floating on active window   | shift+mod+space |
+| Toggle bar                         | mod+b           |
+| Zoom active window to master stack | mod+return      |
+| Toggle view                        | mod+tab         |
 
 Requirements
 ------------
